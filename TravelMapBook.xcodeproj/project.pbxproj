@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4EB50B77213C317C00FFCCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB50B76213C317C00FFCCAE /* AppDelegate.swift */; };
-		4EB50B79213C317C00FFCCAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB50B78213C317C00FFCCAE /* ViewController.swift */; };
 		4EB50B7C213C317C00FFCCAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB50B7A213C317C00FFCCAE /* Main.storyboard */; };
 		4EB50B7F213C317C00FFCCAE /* TravelMapBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EB50B7D213C317C00FFCCAE /* TravelMapBook.xcdatamodeld */; };
 		4EB50B81213C319D00FFCCAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB50B80213C319D00FFCCAE /* Assets.xcassets */; };
 		4EB50B84213C319D00FFCCAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB50B82213C319D00FFCCAE /* LaunchScreen.storyboard */; };
+		4EB50B8D213C32BE00FFCCAE /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB50B8B213C32BD00FFCCAE /* MapVC.swift */; };
+		4EB50B8E213C32BE00FFCCAE /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB50B8C213C32BE00FFCCAE /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EB50B73213C317C00FFCCAE /* TravelMapBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelMapBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB50B76213C317C00FFCCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EB50B78213C317C00FFCCAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EB50B7B213C317C00FFCCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EB50B7E213C317C00FFCCAE /* TravelMapBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelMapBook.xcdatamodel; sourceTree = "<group>"; };
 		4EB50B80213C319D00FFCCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EB50B83213C319D00FFCCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EB50B85213C319D00FFCCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB50B8B213C32BD00FFCCAE /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		4EB50B8C213C32BE00FFCCAE /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				4EB50B76213C317C00FFCCAE /* AppDelegate.swift */,
-				4EB50B78213C317C00FFCCAE /* ViewController.swift */,
+				4EB50B8C213C32BE00FFCCAE /* MainVC.swift */,
+				4EB50B8B213C32BD00FFCCAE /* MapVC.swift */,
 				4EB50B7A213C317C00FFCCAE /* Main.storyboard */,
 				4EB50B80213C319D00FFCCAE /* Assets.xcassets */,
 				4EB50B82213C319D00FFCCAE /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB50B79213C317C00FFCCAE /* ViewController.swift in Sources */,
 				4EB50B77213C317C00FFCCAE /* AppDelegate.swift in Sources */,
+				4EB50B8E213C32BE00FFCCAE /* MainVC.swift in Sources */,
+				4EB50B8D213C32BE00FFCCAE /* MapVC.swift in Sources */,
 				4EB50B7F213C317C00FFCCAE /* TravelMapBook.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
